@@ -1,0 +1,72 @@
+.body {
+  background-color: bisque;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  justify-content: center;
+  border-radius: 20px;
+}
+.input {
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  background-color: rgb(235, 190, 135);
+  border-radius: 20px;
+}
+.input input {
+  border-radius: 20px;
+  padding: 2px;
+  margin: 2px;
+  font-size: small;
+  background-color: antiquewhite;
+  border-style: none;
+}
+.input label {
+  padding: 2px;
+  margin: 2px;
+  font-size: medium;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-size: large;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 30%;
+  background-color: brown;
+  color: wheat;
+  border-style: none;
+}
+.btn button{
+    background-color: brown;
+    border-style: none;
+    font-size: medium;
+    font-weight: bold;
+}
+.select {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: 170px;
+  text-align: center;
+  border-style: none;
+}
+.error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
