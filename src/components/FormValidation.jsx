@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 const FormValidation = () => {
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -45,6 +46,7 @@ const FormValidation = () => {
   };
 
   const validateForm = () => {
+    
     let newErrors = {};
 
     //First Name
@@ -142,8 +144,11 @@ const FormValidation = () => {
 
   return (
     <div className="form">
+
       <h1>Form Validation</h1>
+    
       <form onSubmit={handleSubmit}>
+
         <div className="input">
           <label>First Name: </label>
           <input
